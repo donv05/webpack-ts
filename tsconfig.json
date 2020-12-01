@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "module": "ESNext",
+        "target": "es2017",
+        "jsx": "react",
+        "allowJs": true,
+        "experimentalDecorators": true,
+    },
+    // TS2578: Unused '@ts-expect-error' directive.
+    //ERROR in /Users/donguyen/Desktop/training/webpack-demo/node_modules/mem/dist/index.js(36,9)
+    "include": ["src/**/*"],
+    
+}

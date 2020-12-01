@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('./css/my-font.woff2') format('woff2'),
+      url('./css/my-font.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;   
+}
+* {
+    /* margin: inherit;
+    padding: inherit; */
+}
+body {
+  background: whitesmoke;
+}
+
+.primary-txt {
+    color: blue;
+    font-family: 'MyFont';
+    /* background: url('./icon.svg'); */
+    background-repeat: no-repeat;
+}
+
+.form {
+    padding: 1rem;
+    max-width: 26rem;
+
+}
+
+.form__input {
+    width: 100%;
+    padding: .5rem 0;
+    margin: .5rem 0 1rem 0;
+}
+
+.form__label {
+    padding: .5rem 0;
+}
+
+.card-list {
+    margin: 0 auto;
+    padding: .5rem;
+    max-width: 600px;
+}
+
+.card {
+    max-width: 100%;
+    display: block;
+    list-style-type: disc;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+    padding-inline-start: 0;
+
+}
+
+.card__item {
+    border: 1px solid rgb(221 120 120 / 39%);
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: .5rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    
+    background-color: antiquewhite;
+
+}
+
+.card__item:hover {
+    cursor: pointer;
+}
+
+
+.btn {
+    text-transform: uppercase;
+    border: unset;
+    padding: .8rem 3rem;
+}
+.btn--primary {
+    background-color: green;
+    color: white;
+}
+
+
+.card-box {
+    border: 1px solid red;
+    min-height: 10rem;
+    margin-bottom: 1rem;
+}
+
+.card-box__title {
+    color: white;
+    background-color: red;
+    padding: 1rem .5rem;
+    margin-top: 0;
+}
+
+.card-box__title--active {
+    background-color: red;
+}
+
+.card-box__title--achieved {
+    background-color: green;
+}
+  

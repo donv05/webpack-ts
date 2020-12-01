@@ -1,0 +1,26 @@
+.header {
+    background-color: azure;
+    width: 100%;
+    padding: 2rem;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+    justify-content: center;
+}
+
+.header__icon {
+    width: 4rem;
+    height: 4rem;
+}
+
+button {
+    justify-self: left;
+}
+
+.project-input {background: rgba(183, 247, 251, .2);
+    display: grid;
+    grid-template-columns: 200px;
+    justify-items: center;
+    justify-content: center;
+}
